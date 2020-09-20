@@ -1,0 +1,218 @@
+@font-face {
+    font-family:'Poppins', sans-serif;
+    src: url(../font/Poppins-Regular.ttf);
+}
+.navbar .navbar-brand img {
+    width:220px ;
+}
+
+#navbarSupportedContent ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+    transition: 0.5s ease;
+    position: relative;
+
+}
+#navbarSupportedContent ul li a:hover {
+    color: tomato;
+}
+#navbarSupportedContent ul li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 6px;
+    height: 3px;
+    opacity: 0;
+    background-color: tomato;
+    transition: 0.5s ease;
+
+}
+#navbarSupportedContent ul li a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6px;
+    height: 3px;
+    opacity: 0;
+    background-color: tomato;
+    transition: 0.5s ease;
+
+}
+#navbarSupportedContent ul li a:hover:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 3px;
+    opacity: 1;
+    background-color: tomato;
+    transition: 0.5s ease;
+
+}
+#navbarSupportedContent ul li a:hover:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 3px;
+    opacity: 1;
+    background-color: tomato;
+    transition: 0.5s ease;
+
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-brand img {
+        width:220px ;
+    }
+    
+    #navbarSupportedContent ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        
+        transition: 0.5s ease;
+        position: relative;
+    
+    }
+    #navbarSupportedContent ul li a:hover {
+        color: tomato;
+    }
+    #navbarSupportedContent ul li a:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 6px;
+        height: 3px;
+        opacity: 0;
+        background-color: tomato;
+        transition: 0.5s ease;
+    
+    }
+    #navbarSupportedContent ul li a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 6px;
+        height: 3px;
+        opacity: 0;
+        background-color: tomato;
+        transition: 0.5s ease;
+    
+    }
+    #navbarSupportedContent ul li a:hover:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 3px;
+        opacity: 1;
+        background-color: tomato;
+        transition: 0.5s ease;
+    
+    }
+    #navbarSupportedContent ul li a:hover:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 3px;
+        opacity: 1;
+        background-color: tomato;
+        transition: 0.5s ease;
+    
+    }
+    
+}
+.fixed-block{
+    height: auto;
+    width: 25px;
+}
+.fixed-block .social-icons .list-inline-item a {
+    color: white;
+    font-size: 20px;
+}
+
+.single-info p a {
+    color: tomato;
+}
+
+.lightbox-wrapper .lightbox-content .section-heading.page-heading>.animated-bar {
+    background-color:tomato;
+}
+
+.fab {
+    font-size: 20px;
+    color: aliceblue;
+}
+.single-servive {
+    font-size: 50px;
+    color:tomato;
+}
+
+.far, .fas,.fa-font-awesome-flag,.fa-css3-alt, .fa-wordpress{
+    font-size: 35px;
+    color:tomato;
+}
+
+#logos1 {
+    font-size: 30px;
+    color: tomato;
+}
+
+.button-main{
+    background-color: tomato;
+    transition: 1s;
+}
+.button-main:hover {
+    background-color: white;
+    color: tomato;
+    border:1px solid tomato;
+    transition: 1s;
+}
+.progress-bar {
+    background-color: tomato;
+}
+#resume .video-section .video-part .embed-responsive-item {
+    background-image: url(../img/video.jpg);
+}
+.list-inline-item a i{
+    transition: 0.8s;
+}
+.list-inline-item a i:hover{
+    color: tomato;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.fixed-block .list-unstyled li a .single-language{
+    transition: 0.8s;
+}
+
+.fixed-block .list-unstyled li a .single-language:hover  {
+    color: tomato;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.is-visible {
+    color: tomato;
+}
+.r-m {
+    color: white;
+    
+}
+.r-m:hover {
+    color:tomato ;
+}
+.card-title {
+    color: tomato;
+}
